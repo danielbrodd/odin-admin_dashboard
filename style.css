@@ -149,6 +149,8 @@
     grid-row:  1 / 2;
 
     align-self: flex-end;
+    width: 400px;
+    overflow: hidden;
 
 }
 
@@ -176,10 +178,24 @@
     grid-column: 2 / 3;
 
     display: flex;
-    justify-content: space-around;
+    justify-content:start;
+    align-items: center;
 
 }
-.buttons button 
+.buttons > button {
+    width: 85px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 35px;
+    margin-top: 10px;
+    margin-left: -10px;
+    background-color: #0284c7;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+}
 /* remove when positioning done*/
 
 .main {
