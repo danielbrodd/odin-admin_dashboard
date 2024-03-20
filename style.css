@@ -31,7 +31,7 @@
 
     position: fixed;
     height: 100vh;
-    width: 100%;
+    width: 250px;
     top: 0;
 
     grid-column: 1 / 2;
@@ -241,7 +241,8 @@
     height: 200px;
     margin: 15px 30px;
     border-radius: 20px;
-    border-left: 8px solid #F2CE49;
+    border-left: 8px solid #E7B74A;
+    box-shadow: 0 5px 5px #0002;
  }
 
  .cards > h1 {
@@ -255,8 +256,39 @@
 
  .side-card {
     grid-column: 2 / 3;
-    background-color: blue;
+
+
+    display: flex;
+    flex-direction: column;
 
 }
 
-.side-card
+.side-card  h1 {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left:  10px;
+
+}
+
+.card-1 > .card, .card-2 > .card{
+
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    border-left: 8px solid #E7B74A;
+    box-shadow: 0 5px 5px #0003;
+}
+
+.card-1 h1 {
+    margin-top: 15px;
+}
+
+.card-2 {
+    height: 350px;
+    margin-top: 15px;
+
+}
